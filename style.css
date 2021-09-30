@@ -1,0 +1,31 @@
+.card {
+  display: block;
+  background-image: url("img/prova.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.card .card-image {
+  display: block;
+}
+.card:last-child img {
+  height: 12.5rem;
+}
+.card:hover {
+  background-color: pink;
+}
+.card-title {
+  font-size: 2.5rem;
+  border-bottom: 1px solid pink;
+  background-image: url("img/bg-title.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+/*# sourceMappingURL=style.css.map */

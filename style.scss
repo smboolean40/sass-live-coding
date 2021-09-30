@@ -1,0 +1,32 @@
+@import 'vars';
+@import 'mix';
+@import 'functions';
+
+.card {
+	display: block;
+	@include bgHero('img/prova.jpg');
+
+	.card-image {
+		display: block;
+	}
+
+	&:last-child img {
+		height: pxToRem(200);
+	}
+
+	&:hover {
+		background-color: $mainColor;
+	}
+
+	&-title {
+		font-size: pxToRem(40);
+		border-bottom: 1px solid $mainColor;
+		@include bgHero('img/bg-title.jpg');
+	}
+}
+
+nav {
+	ul {
+		@include listaMenu;
+	}
+}

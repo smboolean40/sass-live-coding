@@ -1,0 +1,11 @@
+@mixin listaMenu {
+	display: flex;
+	list-style: none;
+}
+
+@mixin bgHero($pathImage) {
+	background-image: url($pathImage);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
