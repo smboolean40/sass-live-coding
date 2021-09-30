@@ -1,0 +1,27 @@
+$sizes: 20, 40, 60, 80,100;
+
+@each $size in $sizes {
+  .mt-#{$size} {
+    margin-top: #{$size}px;
+  }
+}
+
+// .mt-20 {
+// 	margin-top: 20px;
+// }
+
+// .mt-40 {
+// 	margin-top: 40px;
+// }
+
+// .mt-60 {
+// 	margin-top: 60px;
+// }
+
+// .mt-80 {
+// 	margin-top: 80px;
+// }
+
+// .mt-100 {
+// 	margin-top: 100px;
+// }
